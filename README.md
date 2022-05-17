@@ -1,0 +1,2 @@
+# debtor
+Basic budgeting software
