@@ -1,0 +1,17 @@
+{application, debtor,
+ [{description, "Basic budgeting software"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {debtor_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    mnesia
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["The Unlicense"]},
+  {links, []}
+ ]}.
